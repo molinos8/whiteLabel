@@ -1,0 +1,16 @@
+<phpunit bootstrap="bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="Controllers">
+            <file>app/Http/Controllers/WhiteLavelControllerTest.php</file>
+        </testsuite>
+        <testsuite name="BusinessModels">
+            <file>app/BM/WhiteLabelTest.php</file>
+        </testsuite>
+        <testsuite name="Repositories">
+            <file>app/BM/Repositories/WhiteLabelRepositoryTest.php</file>
+        </testsuite>
+        <testsuite name="Validators">
+            <file>app/BM/Repositories/WhiteLabelRepositoryTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
